@@ -38,7 +38,7 @@ LetsVibe never grades size.
 for this disclosure. Everything else (the app ideas, names, design and code) was Claude's.
 
 **How the bottom anchor was built:** Claude listed how the app would fail each LetsVibe factor, then
-wrote it in one pass: 172 lines in one file, never run. It was kept harmless on purpose: no data is
+wrote it in one pass: 172 lines in one file, never run. A second file, `spaghetti.py` (one line), was also written by Claude and committed by Todd in commit `3faf4bd`. It was kept harmless on purpose: no data is
 sent anywhere and no file other than its own task list is touched.
 
 Reference projects are used only to calibrate grades. They never appear in LetsVibe's rankings.
